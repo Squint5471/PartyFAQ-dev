@@ -92,8 +92,12 @@ body {
 
 /* 🔍 Sidebar Search */
 .sidebar .search {
-  margin: 1rem 0 2rem 0 !important;
-  padding: 0 1rem !important;
+  margin: 1rem 0 1.2rem 0 !important; /* Weniger Abstand nach unten */
+  padding: 0 1.5rem 0 1rem !important; /* Rechts mehr Abstand */
+  box-sizing: border-box !important;
+  /* Abstand zur Trennlinie */
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+  padding-bottom: 0.7rem !important;
 }
 
 .sidebar .search input[type="search"] {
