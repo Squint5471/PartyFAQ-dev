@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>FAQ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"> -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app">Wird geladen...</div>
-
+  
   <!-- Floating Action Button mit Text -->
   <a href="https://squint5471.github.io/PartyFAQ/#/?id=%f0%9f%9a%80-die-kurzfassung-f%c3%bcr-alle-mit-der-aufmerksamkeit-eines-goldfischs-%f0%9f%98%84" 
      class="party-faq-fab"
@@ -25,14 +26,25 @@
       mergeNavbar: true,
       formatUpdated: '{DD}.{MM}.{YY} {HH}:{mm}',
       search: {
-        maxAge: 86400000,
+        maxAge: 86400000, // Expiration time, the default one day
         paths: 'auto',
         placeholder: 'Suchen',
         noData: 'Keine Ergebnisse!',
       }
+      // ,
+      //   topBanner: {
+      //   content: '<a href="https://example.com" target="_blank">Hier klicken für mehr Infos!</a>',
+      //   backgroundColor: '#deebff',
+      //   textColor: '#0747a6',
+      //   textAlign: 'center',
+      //   position: 'fixed',
+      //   zIndex: 1000,
+      // }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
 </body>
 </html>
