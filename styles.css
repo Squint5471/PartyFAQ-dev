@@ -1,3 +1,4 @@
+/* 🌅 Hintergrund & Grundlayout */
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -14,18 +15,19 @@ body {
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   margin-top: 33px !important;
-  z-index: 998 !important; /* Niedriger als Banner */
+  z-index: 998 !important;
 }
 
+/* 🧭 Sidebar Layout */
 .sidebar {
   background-color: #1a2634;
   color: #a8c5e0;
-  top: 0 !important; /* Geändert von 33px zu 0 */
-  height: calc(100vh) !important; /* Volle Höhe */
+  top: 0 !important;
+  height: calc(100vh) !important;
   margin-top: 0 !important;
   padding-top: 2rem !important;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 1001 !important; /* Höher als Banner */
+  z-index: 1001 !important;
 }
 
 .sidebar ul li a {
@@ -50,21 +52,21 @@ body {
   transform: translateX(4px);
 }
 
+/* 🍔 Sidebar Toggle Button */
 .sidebar-toggle {
   background-color: #1a2634;
   color: #a8c5e0 !important;
   border: none;
   border-radius: 4px;
   position: fixed !important;
-  top: 0 !important; /* Geändert von 33px zu 0 */
-  bottom: auto !important;
+  top: 0 !important;
   padding: 12px !important;
   width: 40px !important;
   height: 40px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  z-index: 1002 !important; /* Höher als Sidebar */
+  z-index: 1002 !important;
 }
 
 .sidebar-toggle:hover {
@@ -72,22 +74,15 @@ body {
   color: #ffffff !important;
 }
 
-.sidebar-toggle .sidebar-toggle-button span {
-  background-color: currentColor !important;
-}
-
-/* Sidebar Toggle (Burger) Button */
 .sidebar-toggle span {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 768px) {
-	.markdown-section {
-		padding: 16px 16px 16px 36px !important;
-	}
+.sidebar-toggle .sidebar-toggle-button span {
+  background-color: currentColor !important;
 }
 
-/* Search Styling */
+/* 🔍 Sidebar Search */
 .sidebar .search {
   margin: 1rem 0 2rem 0 !important;
   padding: 0 1rem !important;
@@ -114,6 +109,7 @@ body {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+/* 📋 Results Panel */
 .sidebar .results-panel {
   background: #233446 !important;
   color: #ffffff !important;
@@ -135,7 +131,7 @@ body {
 .sidebar .matching-post h2 {
   font-size: 0.95rem !important;
   margin: 0 !important;
-  color: #a8c5e0 !important; /* Anpassung an die Sidebar-Textfarbe */
+  color: #a8c5e0 !important;
 }
 
 .sidebar .matching-post p {
@@ -144,11 +140,19 @@ body {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.docsify-top-banner {
-  z-index: 1003 !important; /* Höher als alle anderen Elemente */
+/* 📱 Responsive Markdown */
+@media screen and (max-width: 768px) {
+  .markdown-section {
+    padding: 16px 16px 16px 36px !important;
+  }
 }
 
-/* Links dunkelblau und unterstrichen */
+/* 📌 Banner */
+.docsify-top-banner {
+  z-index: 1003 !important;
+}
+
+/* 🔗 Link Styles */
 a {
   color: #0747a6;
   text-decoration: underline;
@@ -158,11 +162,10 @@ a {
 a:hover,
 a:focus {
   color: #05336e;
-  text-decoration: underline;
   text-decoration-color: #05336e;
 }
 
-/* 🎉 Floating action button FAB */
+/* 🎉 Floating Action Button (FAB) */
 .party-faq-fab {
   position: fixed;
   bottom: 30px;
@@ -186,10 +189,38 @@ a:focus {
 }
 
 .party-faq-fab:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #556de0 0%, #6b429e 100%);
+  transform: scale(1.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
 }
 
 .party-faq-fab:active {
-  transform: scale(0.95);
+  transform: scale(0.96);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.party-faq-fab:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+/* 💬 Tooltip-Erweiterung beim Hover (Optional) */
+.party-faq-fab::after {
+  content: "Fragen?";
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 100%;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.party-faq-fab:hover::after {
+  opacity: 1;
+  transform: translateY(-12px);
 }
