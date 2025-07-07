@@ -1,3 +1,5 @@
+/* ------------------- */
+/* 🌄 Hintergrund & Body-Styling */
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -7,25 +9,72 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
+/* 🔲 App-Container unterhalb des Banners */
 #app {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 2rem;
   margin: 20px;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  margin-top: 33px !important;
-  z-index: 998 !important; /* Niedriger als Banner */
+  margin-top: 4.5rem !important;
+  z-index: 998 !important;
 }
 
+/* 🧱 Docsify Top Banner Plugin Styling */
+.docsify-top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3efff !important;
+  color: #0747a6 !important;
+  z-index: 1005 !important;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.docsify-top-banner a {
+  color: #0747a6 !important;
+  text-decoration: underline;
+  margin: 0 6px;
+}
+
+.docsify-top-banner a:hover {
+  color: #05336e !important;
+  text-decoration-color: #05336e !important;
+}
+
+/* 🔗 Linkfarben */
+a {
+  color: #0747a6;
+  text-decoration: underline;
+  text-decoration-color: #0747a6;
+}
+
+a:hover,
+a:focus {
+  color: #05336e;
+  text-decoration-color: #05336e;
+}
+
+/* 🎛 Sidebar Styling */
 .sidebar {
   background-color: #1a2634;
   color: #a8c5e0;
-  top: 0 !important; /* Geändert von 33px zu 0 */
-  height: calc(100vh) !important; /* Volle Höhe */
+  top: 0 !important;
+  height: 100vh !important;
   margin-top: 0 !important;
   padding-top: 2rem !important;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 1001 !important; /* Höher als Banner */
+  z-index: 1001 !important;
 }
 
 .sidebar ul li a {
@@ -46,25 +95,24 @@ body {
 .sidebar ul li a:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.05);
-  text-decoration: none;
   transform: translateX(4px);
 }
 
+/* 🍔 Sidebar Toggle Button */
 .sidebar-toggle {
   background-color: #1a2634;
   color: #a8c5e0 !important;
   border: none;
   border-radius: 4px;
   position: fixed !important;
-  top: 0 !important; /* Geändert von 33px zu 0 */
-  bottom: auto !important;
+  top: 0 !important;
   padding: 12px !important;
   width: 40px !important;
   height: 40px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  z-index: 1002 !important; /* Höher als Sidebar */
+  z-index: 1002 !important;
 }
 
 .sidebar-toggle:hover {
@@ -72,45 +120,11 @@ body {
   color: #ffffff !important;
 }
 
-.sidebar-toggle .sidebar-toggle-button span {
-  background-color: currentColor !important;
-}
-
-/* Sidebar Toggle (Burger) Button */
 .sidebar-toggle span {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 768px) {
-	.markdown-section {
-		padding: 16px 16px 16px 36px !important;
-	}
-}
-
-/* Banner Styling */
-#TOPBANNER {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 3rem;
-  width: 100%;
-  padding: 0 350px;
-  top: 0;
-  background-color: #e3efff !important;
-}
-#TOPBANNER p {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-#TOPBANNER a {
-  margin: auto 5px;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-}
-
-/* Search Styling - Verbessert */
+/* 🔍 Suchfeld in Sidebar */
 .sidebar .search {
   margin: 1rem 0 2rem 0 !important;
   padding: 0 1rem !important;
@@ -158,7 +172,7 @@ body {
 .sidebar .matching-post h2 {
   font-size: 0.95rem !important;
   margin: 0 !important;
-  color: #a8c5e0 !important; /* Anpassung an die Sidebar-Textfarbe */
+  color: #a8c5e0 !important;
 }
 
 .sidebar .matching-post p {
@@ -167,25 +181,7 @@ body {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.docsify-top-banner {
-  z-index: 1003 !important; /* Höher als alle anderen Elemente */
-}
-
-/* Links dunkelblau und unterstrichen */
-a {
-  color: #0747a6;
-  text-decoration: underline;
-  text-decoration-color: #0747a6;
-}
-
-a:hover,
-a:focus {
-  color: #05336e;
-  text-decoration: underline;
-  text-decoration-color: #05336e;
-}
-
-/* Floating Action Button für den Party FAQ Link */
+/* 🎉 Floating Action Button */
 .party-faq-fab {
   position: fixed;
   bottom: 30px;
@@ -216,7 +212,6 @@ a:focus {
   transform: scale(0.95);
 }
 
-/* Tooltip für den FAB */
 .party-faq-fab::before {
   content: "Party FAQ öffnen";
   position: absolute;
@@ -237,8 +232,12 @@ a:focus {
   visibility: visible;
 }
 
-/* Responsive Design für den FAB */
+/* 📱 Responsive */
 @media screen and (max-width: 768px) {
+  .markdown-section {
+    padding: 16px 16px 16px 36px !important;
+  }
+
   .party-faq-fab {
     bottom: 20px;
     right: 20px;
