@@ -1,4 +1,4 @@
-/* 🌄 Hintergrund & Grundstruktur */
+/* 🌄 Hintergrund und Grundlayout */
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -8,78 +8,28 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
-/* 📦 Hauptinhalt */
+/* 📦 Haupt-Container */
 #app {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 2rem;
   margin: 20px;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  margin-top: 4.5rem !important;
-  z-index: 998 !important;
+  margin-top: 20px;
+  z-index: 998;
   pointer-events: auto;
-}
-
-/* 📢 Top-Banner (docsify plugin) */
-.docsify-top-banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 3.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e3efff !important;
-  color: #0747a6 !important;
-  z-index: 1006 !important;
-  padding: 0 1rem 0 4rem; /* linker Abstand für Burger-Menü */
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  pointer-events: auto;
-}
-
-.docsify-top-banner a {
-  color: #0747a6 !important;
-  text-decoration: underline;
-  margin: 0 6px;
-  position: relative;
-  z-index: 1007;
-  pointer-events: auto;
-}
-
-.docsify-top-banner a:hover {
-  color: #05336e !important;
-  text-decoration-color: #05336e !important;
-}
-
-/* 🔗 Allgemeine Links */
-a {
-  color: #0747a6;
-  text-decoration: underline;
-  text-decoration-color: #0747a6;
-}
-
-a:hover,
-a:focus {
-  color: #05336e;
-  text-decoration-color: #05336e;
 }
 
 /* 📚 Sidebar */
 .sidebar {
   background-color: #1a2634;
   color: #a8c5e0;
-  top: 0 !important;
-  height: 100vh !important;
-  margin-top: 0 !important;
-  padding-top: 2rem !important;
+  top: 0;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 2rem;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 1001 !important;
+  z-index: 1001;
 }
 
 .sidebar ul li a {
@@ -103,27 +53,27 @@ a:focus {
   transform: translateX(4px);
 }
 
-/* 🍔 Sidebar Toggle (Burger-Menü) */
+/* 🍔 Sidebar-Toggle (Burger-Menü) */
 .sidebar-toggle {
   background-color: #1a2634;
-  color: #a8c5e0 !important;
+  color: #a8c5e0;
   border: none;
   border-radius: 4px;
-  position: fixed !important;
-  top: 0 !important;
-  padding: 12px !important;
-  width: 40px !important;
-  height: 40px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 1003 !important;
+  position: fixed;
+  top: 0;
+  padding: 12px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1003;
   pointer-events: auto;
 }
 
 .sidebar-toggle:hover {
-  background-color: #233446 !important;
-  color: #ffffff !important;
+  background-color: #233446;
+  color: #ffffff;
 }
 
 .sidebar-toggle span {
@@ -132,70 +82,82 @@ a:focus {
 
 /* 🔍 Suche */
 .sidebar .search {
-  margin: 1rem 0 2rem 0 !important;
-  padding: 0 1rem !important;
+  margin: 1rem 0 2rem 0;
+  padding: 0 1rem;
 }
 
 .sidebar .search input[type="search"] {
-  background: rgba(255, 255, 255, 0.08) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  color: #ffffff !important;
-  border-radius: 4px !important;
-  padding: 0.5rem 1rem !important;
-  width: 100% !important;
-  font-size: 0.9rem !important;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 0.9rem;
 }
 
 .sidebar .search input[type="search"]:focus {
-  background: rgba(255, 255, 255, 0.12) !important;
-  border-color: #4a9eff !important;
-  box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.25) !important;
-  outline: none !important;
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #4a9eff;
+  box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.25);
+  outline: none;
 }
 
 .sidebar .search input[type="search"]::placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .sidebar .results-panel {
-  background: #233446 !important;
-  color: #ffffff !important;
-  border-radius: 4px !important;
-  margin-top: 0.5rem !important;
-  max-height: 450px !important;
-  overflow-y: auto !important;
+  background: #233446;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  max-height: 450px;
+  overflow-y: auto;
 }
 
 .sidebar .matching-post {
-  padding: 0.75rem 1rem !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar .matching-post:hover {
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .sidebar .matching-post h2 {
-  font-size: 0.95rem !important;
-  margin: 0 !important;
-  color: #a8c5e0 !important;
+  font-size: 0.95rem;
+  margin: 0;
+  color: #a8c5e0;
 }
 
 .sidebar .matching-post p {
-  font-size: 0.85rem !important;
-  margin: 0.25rem 0 0 0 !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.85rem;
+  margin: 0.25rem 0 0 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-/* 🎉 Floating Action Button */
+/* 🔗 Standard-Links */
+a {
+  color: #0747a6;
+  text-decoration: underline;
+  text-decoration-color: #0747a6;
+}
+
+a:hover,
+a:focus {
+  color: #05336e;
+  text-decoration-color: #05336e;
+}
+
+/* 🎉 FAB mit Text */
 .party-faq-fab {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 60px;
-  height: 60px;
+  padding: 12px 20px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 50%;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,12 +166,13 @@ a:focus {
   transition: all 0.3s ease;
   text-decoration: none;
   color: white;
-  font-size: 24px;
-  pointer-events: auto;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .party-faq-fab:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
 }
 
@@ -217,27 +180,7 @@ a:focus {
   transform: scale(0.95);
 }
 
-.party-faq-fab::before {
-  content: "Party FAQ öffnen";
-  position: absolute;
-  right: 70px;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
-  font-size: 12px;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
-
-.party-faq-fab:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* 📱 Responsives Design */
+/* 📱 Mobilanpassung */
 @media screen and (max-width: 768px) {
   .markdown-section {
     padding: 16px 16px 16px 36px !important;
@@ -246,14 +189,7 @@ a:focus {
   .party-faq-fab {
     bottom: 20px;
     right: 20px;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-  }
-
-  .docsify-top-banner {
-    font-size: 0.95rem;
-    height: 3rem;
-    padding-left: 3.5rem;
+    font-size: 14px;
+    padding: 10px 16px;
   }
 }
