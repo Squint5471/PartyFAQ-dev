@@ -155,14 +155,14 @@ body {
 /* 🔗 Link Design */
 a {
   color: #0747a6;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #0747a6;
 }
 
 a:hover,
 a:focus {
   color: #05336e;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #05336e;
 }
 
