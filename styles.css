@@ -165,27 +165,20 @@ a:focus {
   text-decoration-color: #05336e;
 }
 
-/* 🎉 Floating Action Button (FAB) */
+/* FAB Button-Stil */
 .party-faq-fab {
+  text-decoration: none;        /* Unterstreichung entfernen */
+  display: inline-block;        /* Ganze Schaltfläche klickbar */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 12px 20px;
-  font-size: 15px;
-  font-weight: 500;
-  color: white;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-  border-radius: 999px;
-  text-decoration: none;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  z-index: 1004;
-  transition: all 0.3s ease;
-  white-space: nowrap;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
 }
 
 .party-faq-fab:hover {
