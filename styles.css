@@ -1,4 +1,4 @@
-/* 🌅 Hintergrund & Grundlayout */
+/* 🌅 Hintergrund und Grundlayout */
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -18,7 +18,7 @@ body {
   z-index: 998 !important;
 }
 
-/* 🧭 Sidebar Layout */
+/* 🧭 Sidebar */
 .sidebar {
   background-color: #1a2634;
   color: #a8c5e0;
@@ -140,7 +140,7 @@ body {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-/* 📱 Responsive Markdown */
+/* 📱 Markdown Responsive */
 @media screen and (max-width: 768px) {
   .markdown-section {
     padding: 16px 16px 16px 36px !important;
@@ -152,7 +152,7 @@ body {
   z-index: 1003 !important;
 }
 
-/* 🔗 Link Styles */
+/* 🔗 Link Design */
 a {
   color: #0747a6;
   text-decoration: underline;
@@ -165,55 +165,44 @@ a:focus {
   text-decoration-color: #05336e;
 }
 
-/* FAB Button-Stil */
+/* 🎉 Floating Action Button (FAB) – optimiert */
 .party-faq-fab {
-  text-decoration: none;        /* Unterstreichung entfernen */
-  display: inline-block;        /* Ganze Schaltfläche klickbar */
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border-radius: 50px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s;
+  bottom: 30px;
+  right: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white; /* Schriftfarbe fix */
+  background: linear-gradient(120deg, #4a90e2 0%, #845ec2 100%);
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1004;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease;
+  white-space: nowrap;
 }
 
+/* Hover-Effekt */
 .party-faq-fab:hover {
-  background: linear-gradient(135deg, #556de0 0%, #6b429e 100%);
-  transform: scale(1.08);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(120deg, #3b7ddc 0%, #6f4fc9 100%);
+  transform: scale(1.04); /* sanfter Zoom */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
 
+/* Klick-Effekt */
 .party-faq-fab:active {
-  transform: scale(0.96);
+  transform: scale(0.98);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Fokus für Tastaturbenutzer */
 .party-faq-fab:focus {
   outline: 2px solid #ffffff;
   outline-offset: 4px;
-}
-
-/* 💬 Tooltip-Erweiterung beim Hover (Optional) */
-.party-faq-fab::after {
-  content: "Fragen?";
-  font-size: 14px;
-  background: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 6px;
-  position: absolute;
-  bottom: 100%;
-  opacity: 0;
-  transform: translateY(-8px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
-}
-
-.party-faq-fab:hover::after {
-  opacity: 1;
-  transform: translateY(-12px);
 }
