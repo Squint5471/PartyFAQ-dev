@@ -1,0 +1,186 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+#app {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  margin-top: 33px !important;
+  z-index: 998 !important; /* Niedriger als Banner */
+}
+
+.sidebar {
+  background-color: #1a2634;
+  color: #a8c5e0;
+  top: 0 !important; /* Geändert von 33px zu 0 */
+  height: calc(100vh) !important; /* Volle Höhe */
+  margin-top: 0 !important;
+  padding-top: 2rem !important;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001 !important; /* Höher als Banner */
+}
+
+.sidebar ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.sidebar ul li.active a {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-right: 3px solid #4a9eff;
+}
+
+.sidebar ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transform: translateX(4px);
+}
+
+.sidebar-toggle {
+  background-color: #1a2634;
+  color: #a8c5e0 !important;
+  border: none;
+  border-radius: 4px;
+  position: fixed !important;
+  top: 0 !important; /* Geändert von 33px zu 0 */
+  bottom: auto !important;
+  padding: 12px !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 1002 !important; /* Höher als Sidebar */
+}
+
+.sidebar-toggle:hover {
+  background-color: #233446 !important;
+  color: #ffffff !important;
+}
+
+.sidebar-toggle .sidebar-toggle-button span {
+  background-color: currentColor !important;
+}
+
+/* Sidebar Toggle (Burger) Button */
+.sidebar-toggle span {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px) {
+	.markdown-section {
+		padding: 16px 16px 16px 36px !important;
+	}
+}
+
+/* Banner Styling */
+#TOPBANNER {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  width: 100%;
+  padding: 0 350px;
+  top: 0;
+  background-color: #e3efff !important;
+}
+#TOPBANNER p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#TOPBANNER a {
+  margin: auto 5px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+/* Search Styling - Verbessert */
+.sidebar .search {
+  margin: 1rem 0 2rem 0 !important;
+  padding: 0 1rem !important;
+}
+
+.sidebar .search input[type="search"] {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  padding: 0.5rem 1rem !important;
+  width: 100% !important;
+  font-size: 0.9rem !important;
+}
+
+.sidebar .search input[type="search"]:focus {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: #4a9eff !important;
+  box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.25) !important;
+  outline: none !important;
+}
+
+.sidebar .search input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.sidebar .results-panel {
+  background: #233446 !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  margin-top: 0.5rem !important;
+  max-height: 450px !important;
+  overflow-y: auto !important;
+}
+
+.sidebar .matching-post {
+  padding: 0.75rem 1rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar .matching-post:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.sidebar .matching-post h2 {
+  font-size: 0.95rem !important;
+  margin: 0 !important;
+  color: #a8c5e0 !important; /* Anpassung an die Sidebar-Textfarbe */
+}
+
+.sidebar .matching-post p {
+  font-size: 0.85rem !important;
+  margin: 0.25rem 0 0 0 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.docsify-top-banner {
+  z-index: 1003 !important; /* Höher als alle anderen Elemente */
+}
+
+/* Links dunkelblau und unterstrichen */
+a {
+  color: #0747a6;
+  text-decoration: underline;
+  text-decoration-color: #0747a6;
+}
+
+a:hover,
+a:focus {
+  color: #05336e;
+  text-decoration: underline;
+  text-decoration-color: #05336e;
+}
