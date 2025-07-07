@@ -184,3 +184,66 @@ a:focus {
   text-decoration: underline;
   text-decoration-color: #05336e;
 }
+
+/* Floating Action Button für den Party FAQ Link */
+.party-faq-fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1004;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.party-faq-fab:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.party-faq-fab:active {
+  transform: scale(0.95);
+}
+
+/* Tooltip für den FAB */
+.party-faq-fab::before {
+  content: "Party FAQ öffnen";
+  position: absolute;
+  right: 70px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.party-faq-fab:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive Design für den FAB */
+@media screen and (max-width: 768px) {
+  .party-faq-fab {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
