@@ -148,10 +148,6 @@ body {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.docsify-top-banner {
-  z-index: 1003 !important; /* Höher als alle anderen Elemente */
-}
-
 /* 🔗 Link Design */
 a {
   color: #0747a6;
@@ -191,7 +187,7 @@ a:focus {
 
 /* Hover-Effekt */
 .party-faq-fab:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
 }
 
