@@ -52,24 +52,39 @@ Selbstverständlich - ob Zelt 🏕️, Camper 🚐 oder mit der Isomatte im Vere
 
 ---
 
+## 🌱 Nachhaltigkeit
+
+Lasst uns gemeinsam dafür sorgen, das Festival möglichst umweltfreundlich zu gestalten:
+
+- **Fahrgemeinschaften bilden:** Schließt euch zusammen und kommt gemeinsam – das spart CO₂ und Parkplätze!  
+Sprecht uns gerne an, wenn ihr Mitfahrgelegenheiten sucht oder anbieten könnt.
+- **Müllvermeidung:** Wir nutzen Mehrweg-Geschirr und -Becher, um Müll zu reduzieren.  
+Bevorzugt bitte Mehrweg-Behälter für eure Kuchen und Salate.  
+- **Lebensmittel:** Bringt gerne auch etwas zum Einpacken der Reste mit.  
+
+Gemeinsam schaffen wir ein nachhaltiges Festival-Erlebnis! 💚
+
+---
+
 ## 🍔 Essen & Trinken
 
 **<u>Wir kümmern uns um:</u>**
 
-- Grill-Möglichkeiten (mehrere Gasgrills vor Ort)
+- Nur **Freitags**: Chili con/sin Carne
+- Nur **Samstags**: Grill-Möglichkeiten (mehrere Gasgrills vor Ort)
 - Beilagen (Brötchen, Kartoffelsalat, Soßen)
 - Getränke (Bier mit/ohne Alkohol, Wein, Secco, Cola, Limo, Wasser)
-- Frühstück für die Übernachtungsgäste (Kaffee, Brötchen, Butter, Käse, Marmelade)
+- Frühstück für die Übernachtungsgäste (Kaffee, Brötchen, Butter, Käse, Wurst, Marmelade)
 
 **<u>Von euch mitzubringen:</u>**
 
 Bring mit, was du besonders magst oder was du mit anderen teilen möchtest 🍰🍹  
 
-- Grillgut, Snacks, Salate oder Nachtisch
+- **Grillgut**, Snacks, Salate oder Nachtisch
 - Schnaps und besondere Misch-Getränke
 - Eure Frühstücks-Lieblinge (z.B. Müsli, Joghurt, Obst)
 
-🧊 Damit alles frisch bleibt, kannst du vor Ort den Kühlraum nutzen.
+🧊 Damit alles frisch bleibt, kannst du vor Ort den Kühlraum nutzen. Bring hierfür am besten einen Korb oder eine Tasche mit, die du leicht wiedererkennst.
 
 ---
 
@@ -77,7 +92,7 @@ Bring mit, was du besonders magst oder was du mit anderen teilen möchtest 🍰�
 
 Dein Kommen ist Geschenk genug.
 Wenn du dennoch etwas beisteuern willst:  
-**Bring neben Festival-Laune gerne Deko oder etwas zum Teilen wie Salate oder Nachtisch mit. Vor Ort wird es außerdem einen PayPal-Link geben, falls du uns unterstützen möchtest.**
+**Bring neben Festival-Laune gerne Deko oder etwas zum Teilen wie Salate oder Nachtisch mit. Vor Ort wird es außerdem einen PayPal-Link sowie eine Spendenbox geben, falls du uns unterstützen möchtest.**
 
 ---
 
@@ -92,7 +107,7 @@ Lockere Spiele und spontane Challenges - alles freiwillig, keine Vorträge oder 
 
 Es wird hauptsächlich elektronische Musik laufen – tagsüber House, abends Hip Hop und Techno.  
 Wir feiern draußen, mitten im Grünen, unter Lichterketten und zwischen Zelten.  
-**Freut euch auf einen Überraschungs-DJ, der uns einheizen wird!**
+**Freut euch auf Überraschungs-DJs, die uns einheizen werden!**
 
 ---
 
@@ -106,7 +121,8 @@ Abends wird’s frisch – leichte Jacke einpacken!
 
 ## 🧒 Kids & Dogs
 
-Kinder willkommen!  
+Kinder willkommen! Besonders Samstag tagsüber freuen wir uns auf ein familiäres Miteinander - es wird Spiel & Spaß geboten.
+Gehörschutz für die Kleinsten ist lediglich direkt auf der Tanzfläche notwendig und bitte selbst mitzubringen.  
 Hunde oder andere Haustiere? Wenn möglich, bitte besser zuhause lassen 🐶
 
 ---
@@ -132,3 +148,4 @@ Deine FOURTYVAL-Crew Markus, Christian, Frank & Sebastian
 - **Geschenke:** Dein Kommen ist Geschenk genug...aber Salate, Deko oder PayPal-Unterstützungen sind willkommen
 - **Musik:** House, Hip Hop, Techno
 - **Wichtig:** Kinder willkommen
+<br/><br/><br/><br/><br/>
