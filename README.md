@@ -23,9 +23,19 @@ Ausschlafen, ausklingen, abbauen, abhängen ist angesagt 😊
 
 ---
 
-## 📍 Ort
+## 📍 Ort & Parken
 
-Wir feiern auf einem kompletten Sportgelände (inkl. Vereinsheim). Die genaue Adresse und den exakten Standort 📌 findest du in der WhatsApp-Community. Parkmöglichkeiten sind vor Ort ausreichend vorhanden.
+Wir feiern auf einem kompletten Sportgelände (inkl. Vereinsheim). Die genaue Adresse und den exakten Standort 📌 findest du in der WhatsApp-Community.  
+  
+Parkmöglichkeiten sind vor Ort ausreichend vorhanden:  
+
+- PKWs (lila) - bitte nur an einer Seite des Wegesrandes parken  
+- ⁠Camper (dunkelblau / normale Größe) - Anfahrt durch den Obstgarten / Abstellen direkt am Fußballplatz  
+- ⁠Camper (hellblau / LKW-ähnlich) - Anfahrt am Obstgarten vorbei - Abstellen im hohen Gras  
+
+![Übersichtskarte Parken](./img/parking.jpeg)
+
+**Wichtig ist, dass wir alle - aber auch die örtliche Bevölkerung - jederzeit uneingeschränkt am Gelände vorbei fahren können.**
 
 ---
 
