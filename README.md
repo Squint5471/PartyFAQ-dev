@@ -109,7 +109,7 @@ Wenn du dennoch etwas beisteuern willst:
 ## ⚽ Sport & Aktivitäten
 
 Lockere Spiele und spontane Challenges - alles freiwillig, keine Vorträge oder Kollektivspiele! Einfach mitmachen, worauf ihr Lust habt, oder entspannt abhängen.  
-**Bringt gerne Spielgeräte wie Bälle, Netze usw. mit!**
+**Bringt gerne Spielgeräte wie Bälle, Netze usw. mit!**  
 Keine Lust auf Dauercampingstuhl?  
 Dann ab auf den Dancefloor oder zu Kicker, Fußball & Bierpong!
 
@@ -135,10 +135,10 @@ Abends wird’s frisch – leichte Jacke einpacken!
 
 ## 🧒 Kids & Dogs
 
-Kinder willkommen! Besonders Samstag tagsüber freuen wir uns auf ein familiäres Miteinander - es wird Spiel & Spaß geboten.
+Kinder willkommen!  
 Gehörschutz für die Kleinsten ist lediglich direkt auf der Tanzfläche notwendig und bitte selbst mitzubringen.  
-Überall auf dem Gelände gibt’s Spielmöglichkeiten für jedes Alter.  
-Glitzer & Tattoos warten an einem Stand auf euch.
+Besonders Samstag tagsüber freuen wir uns auf ein familiäres Miteinander - es wird Spiel & Spaß geboten.  
+Überall auf dem Gelände gibt’s Spielmöglichkeiten für jedes Alter. Glitzer & Tattoos warten auch an einem Stand auf euch.
 
 **Samstag gibt’s zwei Highlights für Kids:**
 
