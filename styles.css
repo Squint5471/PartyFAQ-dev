@@ -9,37 +9,21 @@ body {
 }
 
 #app {
-  background-color: rgba(255, 255, 255, 0.98); /* oder 1 für volle Deckkraft */
-  color: #222; /* dunklere Schriftfarbe */
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 2rem;
   margin: 20px;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  margin-top: 66px !important; /* Höhe des Banners anpassen */
+  margin-top: 33px !important;
   z-index: 998 !important; /* Niedriger als Banner */
-}
-
-/* 🏷️ Top-Banner */
-.top-banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1100 !important; /* Höher als Sidebar und Toggle */
-}
-
-/* Sidebar und Toggle unterhalb des Banners anzeigen */
-.sidebar,
-.sidebar-toggle {
-  top: 66px !important; /* Höhe des Banners anpassen */
 }
 
 /* 🧭 Sidebar */
 .sidebar {
   background-color: #1a2634;
   color: #a8c5e0;
-  top: 66px !important; /* Höhe des Banners anpassen */
-  height: calc(100vh - 66px) !important; /* Höhe des Banners abziehen */
+  top: 0 !important;
+  height: calc(100vh) !important;
   margin-top: 0 !important;
   padding-top: 2rem !important;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
