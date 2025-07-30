@@ -106,10 +106,14 @@ Wenn du dennoch etwas beisteuern willst:
 
 ---
 
-## ⚽ Spiele
+## ⚽ Sport & Aktivitäten
 
 Lockere Spiele und spontane Challenges - alles freiwillig, keine Vorträge oder Kollektivspiele! Einfach mitmachen, worauf ihr Lust habt, oder entspannt abhängen.  
 **Bringt gerne Spielgeräte wie Bälle, Netze usw. mit!**
+Keine Lust auf Dauercampingstuhl?  
+Dann ab auf den Dancefloor oder zu Kicker, Fußball & Bierpong!
+
+**Samstag, 12:30 Uhr:** Yoga-Session mit Flavia für alle, die entspannt in den Tag starten wollen.
 
 ---
 
@@ -133,7 +137,15 @@ Abends wird’s frisch – leichte Jacke einpacken!
 
 Kinder willkommen! Besonders Samstag tagsüber freuen wir uns auf ein familiäres Miteinander - es wird Spiel & Spaß geboten.
 Gehörschutz für die Kleinsten ist lediglich direkt auf der Tanzfläche notwendig und bitte selbst mitzubringen.  
-Hunde oder andere Haustiere? Wenn möglich, bitte besser zuhause lassen 🐶
+Überall auf dem Gelände gibt’s Spielmöglichkeiten für jedes Alter.  
+Glitzer & Tattoos warten an einem Stand auf euch.
+
+**Samstag gibt’s zwei Highlights für Kids:**
+
+- **Alpaka-Besuch (14–16 Uhr):** In kleinen Gruppen Alpakas auf der Nachbarwiese besuchen, streicheln erlaubt!
+- **Kinderdisko (ab ca. 16:30 Uhr):** Dancefloor nur für euch – tanzt zu euren Lieblingshits, bevor das Grillen startet.
+
+Hunde oder andere Haustiere? Wenn möglich, lieber zuhause lassen 🐶
 
 ---
 
