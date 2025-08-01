@@ -31,9 +31,10 @@ Parkmöglichkeiten sind vor Ort ausreichend vorhanden:
 
 - PKWs (lila) - bitte nur an einer Seite des Wegesrandes parken  
 - ⁠Camper (dunkelblau / normale Größe) - Anfahrt durch den Obstgarten / Abstellen direkt am Fußballplatz  
-- ⁠Camper (hellblau / LKW-ähnlich) - Anfahrt am Obstgarten vorbei - Abstellen im hohen Gras  
-
-![Übersichtskarte Parken](./img/parking.jpeg)
+- ⁠Camper (hellblau / LKW-ähnlich) - Anfahrt am Obstgarten vorbei - Abstellen im hohen Gras
+  <div style="border: 2px solid #ccc; border-radius: 10px; padding: 8px; display: inline-block;">
+  <img src="./img/parking.jpeg" alt="Übersichtskarte Parken" width="300"/>
+  </div>  
 
 **Wichtig ist, dass wir alle - aber auch die örtliche Bevölkerung - jederzeit uneingeschränkt am Gelände vorbei fahren können.**
 
@@ -68,7 +69,7 @@ Lasst uns gemeinsam dafür sorgen, das Festival möglichst umweltfreundlich zu g
 
 - **Fahrgemeinschaften bilden:** Schließt euch zusammen und kommt gemeinsam – das spart CO₂ und Parkplätze!  
 Sprecht uns gerne an, wenn ihr Mitfahrgelegenheiten sucht oder anbieten könnt.
-- **Müllvermeidung:** Wir nutzen Mehrweg-Geschirr und -Becher, um Müll zu reduzieren.  
+- **Müllvermeidung:** Wir haben Mehrweg-Geschirr und -Becher für euch, um Müll zu reduzieren.  
 Bevorzugt bitte Mehrweg-Behälter für eure Kuchen und Salate.  
 - **Lebensmittel:** Bringt gerne auch etwas zum Einpacken der Reste mit.  
 
@@ -84,6 +85,10 @@ Gemeinsam schaffen wir ein nachhaltiges Festival-Erlebnis! 💚
 - Nur **Samstags**: Grill-Möglichkeiten (mehrere Gasgrills vor Ort)
 - Beilagen (Brötchen, Kartoffelsalat, Soßen)
 - Getränke (Bier mit/ohne Alkohol, Wein, Secco, Cola, Limo, Wasser)
+  <div style="border: 2px solid #ccc; border-radius: 10px; padding: 8px; display: inline-block;">
+  <img src="./img/drinks.jpeg" alt="Getränke" width="300"/>
+  </div>  
+
 - Frühstück für die Übernachtungsgäste (Kaffee, Brötchen, Butter, Käse, Wurst, Marmelade)
 
 **<u>Von euch mitzubringen:</u>**
@@ -92,6 +97,7 @@ Bring mit, was du besonders magst oder was du mit anderen teilen möchtest 🍰�
 
 - **Grillgut**, Snacks, Salate oder Nachtisch
 - Schnaps und besondere Misch-Getränke
+- Für alle Aperol-Fans: Secco, Mineralwasser und frische Orangen stellen wir bereit. Da es lediglich zum Start eine Aperol-Basis geben wird - bringt gerne zusätzlichen Aperol mit!  
 - Eure Frühstücks-Lieblinge (z.B. Müsli, Joghurt, Obst)
 
 🧊 Damit alles frisch bleibt, kannst du vor Ort den Kühlraum nutzen. Bring hierfür am besten einen Korb oder eine Tasche mit, die du leicht wiedererkennst.
